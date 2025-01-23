@@ -85,4 +85,4 @@ To integrate this project with Google Forms, follow these steps:
 3. Save the trigger and authorize any required permissions.
 
 
-🎉 With this setup, your Google Form will automatically create Zoom meeting links for every form submission and send notifications with meeting details to respondents.  
+🎉 With this setup, your Google Form will automatically create Zoom meeting links for every form submission.
