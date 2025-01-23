@@ -7,8 +7,7 @@ This script seamlessly integrates **Google Forms** with **Zoom**, enabling autom
 
 ## ✨ Features
 - 🔗 Automatically generate Zoom meeting links upon form submission.  
-- 📋 Retrieve and process form responses easily.  
-- 📧 Send notifications with meeting details directly to respondents.
+- 📋 Retrieve and process form responses easily.
 
 ---
 
