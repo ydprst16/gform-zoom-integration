@@ -79,7 +79,7 @@ function scheduleZoomMeeting() {
 
   // Generate passcode (bisa diubah sesuai kebutuhan)
   const passcode = Math.random().toString(36).substring(2, 8).toUpperCase();
-  //const passcode = "Dumai"; //static_passcode
+  //const passcode = "12345"; //static_passcode
 
   const payload = {
     topic: rowData[4], // Asumsi kolom topik di indeks 4
