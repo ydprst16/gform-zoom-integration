@@ -36,3 +36,43 @@ This script integrates Google Forms with Zoom to automatically create Zoom meeti
 5. **Activate the App**  
    - Test the app by clicking **"Activate App"**.  
    - Ensure the app is in **Development** or **Production** mode as required.
+
+### Google Form Setup
+
+To integrate this project with Google Forms, follow these steps:
+
+---
+
+#### **1. Create or Open a Google Form**
+- Go to [Google Forms](https://forms.google.com/).  
+- Create a new form or open an existing one.  
+- Add fields based on your needs. For example:
+  - **Name** (Short answer)  
+  - **Email Address** (Short answer)
+  - **Date** (Include Time)
+  - **Meeting Topic** (Short answer or paragraph)
+  - **Duration** (Shord answer, response validation: number)
+ 
+---
+
+#### **2. Link Google Form to Apps Script**
+1. Open the Google Form.  
+2. Click on **Extensions > Apps Script** in the menu bar.  
+3. The Apps Script editor will open in a new tab.
+
+---
+
+#### **3. Add the Script to the Apps Script Editor**
+1. Replace the default code with the script provided in this repository.  
+2. Customize the code as needed (e.g., adjust the email field name to match your form).  
+
+---
+
+#### **4. Set Up a Trigger**
+1. In the Apps Script editor, click the clock icon (Triggers) on the left-hand menu.  
+2. Click **Add Trigger** and set the following:
+   - **Function to run:** `onFormSubmit`  
+   - **Deployment type:** `Head`  
+   - **Event source:** `From form`  
+   - **Type of trigger:** `On form submit`  
+3. Save and authorize any necessary permissions.
