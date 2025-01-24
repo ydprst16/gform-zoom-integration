@@ -1,4 +1,4 @@
-// Konfigurasi Zoom OAuth
+// Configuration Zoom OAuth
 const CLIENT_ID = 'your_client_id';
 const CLIENT_SECRET = 'your_client_secret';
 const ACCOUNT_ID = 'your_account_id';
