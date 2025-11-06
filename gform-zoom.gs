@@ -3,7 +3,7 @@ const CLIENT_ID = 'your_client_id';
 const CLIENT_SECRET = 'your_client_secret';
 const ACCOUNT_ID = 'your_account_id';
 
-// Fungsi untuk mendapatkan Access Token
+// Fungsi untuk mendapatkan Access Token Zoom
 function getAccessToken() {
   const tokenUrl = `https://us05web.zoom.us/oauth/token?grant_type=account_credentials&account_id=${ACCOUNT_ID}`;
   
